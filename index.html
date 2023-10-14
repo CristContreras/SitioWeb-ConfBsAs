@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conferencia Bs. As</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="img/icono.ico">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+                <h1>Conf Bs As</h1>
+            </a>
+        </div>
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <nav class="menu" class="nav" id="nav">
+            <ul class="nav-list">
+                <li><a href="#">La conferencia</a></li>
+                <li><a href="#losOradores">Los oradores</a></li>
+                <li><a href="#lugarFecha">El lugar y fecha</a></li>
+                <li><a href="#seOrador">Conviertete en orador</a></li>
+                <li><a href="#" class="menuItemColorGreen">Comprar tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-carousel" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
+            data-bs-interval="4000" data-bs-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel/ba1-min.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/ba2-min.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/ba3-min.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </section>
+        <section class="section-carousel-leyenda">
+            <div class="carousel-leyenda-titulo">
+                <h2>Conf Bs As.</h2>
+            </div>
+            <div class="carousel-leyenda-detalle">
+                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el
+                    conocimiento y la
+                    experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros
+                    del evento, a otros estudiantes del Codo a Codo y a los oradores de primer nivel que tenemos
+                    para ti. Te esperamos!
+                </p>
+            </div>
+            <div class="carousel-leyenda-botones">
+                <a href="#seOrador"><button class="carousel-btn-orador">Quiero ser orador</button></a>
+                <a href="#seOrador"><button class="carousel-btn-tickets">Comprar tickets</button></a>
+            </div>
+        </section>
+
+        <section id="losOradores" class="titulo-section-oradores">
+            <h2><span id="titulo-parte-oradores">CONOCE A LOS</span><br><strong>ORADORES</strong></h2>
+        </section>
+        <section class="section-tarjetas-oradores">
+            <div class="unaTarjeta">
+                <figure>
+                    <img src="img/tarjetas/steve-min.jpg" alt="">
+                </figure>
+                <div class="tarjeta-botones">
+                    <div class="tarjeta-botones-b1">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="tarjeta-botones-b2">
+                        <h3>React</h3>
+                    </div>
+                </div>
+                <div class="tarjeta-titulo">
+                    <h2>Steve Jobs</h2>
+                </div>
+                <div class="cuerpo-tarjeta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam fugiat tempora eius ad, unde
+                        repellendus repudiandae maxime delectus ut quia asperiores inventore odio cumque quasi
+                        consequuntur. Vitae optio aut architecto!</p>
+                </div>
+            </div>
+            <div class="unaTarjeta">
+                <figure>
+                    <img src="img/tarjetas/bill-min.jpg" alt="">
+                </figure>
+                <div class="tarjeta-botones">
+                    <div class="tarjeta-botones-b1">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="tarjeta-botones-b2">
+                        <h3>React</h3>
+                    </div>
+                </div>
+                <div class="tarjeta-titulo">
+                    <h2>Bill Gates</h2>
+                </div>
+                <div class="cuerpo-tarjeta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam fugiat tempora eius ad, unde
+                        repellendus repudiandae maxime delectus ut quia asperiores inventore odio cumque quasi
+                        consequuntur. Vitae optio aut architecto!</p>
+                </div>
+            </div>
+            <div class="unaTarjeta">
+                <figure>
+                    <img src="img/tarjetas/ada-min.jpeg" alt="">
+                </figure>
+                <div class="tarjeta-botones">
+                    <div class="tarjeta-botones-b1-ada">
+                        <h3>Negocios</h3>
+                    </div>
+                    <div class="tarjeta-botones-b2-ada">
+                        <h3>Startups</h3>
+                    </div>
+                </div>
+                <div class="tarjeta-titulo">
+                    <h2>Ada Lovelace</h2>
+                </div>
+                <div class="cuerpo-tarjeta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam fugiat tempora eius ad, unde
+                        repellendus repudiandae maxime delectus ut quia asperiores inventore odio cumque quasi
+                        consequuntur. Vitae optio aut architecto!</p>
+                </div>
+            </div>
+        </section>
+        <br>
+
+
+        <section id="lugarFecha" class="bsasOctubre">
+
+            <img src="img/BsAsOctubre/001.jpg" alt="">
+
+            <div class="bsasOctubre-contenido">
+                <div class="bsasOctubre-contenido-titulo">
+                    <h2>Bs As - Octubre</h2>
+                </div>
+                <div class="bsasOctubre-contenido-descripcion">
+                    <p>Buenos Aires es la provincia y localidad más grande del estado Argentina, en los Estados Unidos.
+                        Honolulu es la más sureña de entre las principales ciudad estadounidenses. Aunque el nombre del
+                        Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el
+                        condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad
+                        (aproximadamente 600 km&sup2 de superficie).</p>
+                    <div class="bsasOctubre-contenido-boton">
+                        <a href="#"><button>Conocé más</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="seOrador" class="seOrador-container">
+            <div class="seOrador-container-titulo">
+                <h2><span id="titulo-parte-oradores">CONVIÉRTETE EN UN</span><br><strong>ORADOR</strong></h2>
+            </div>
+            <div class="anotacion">
+                <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            </div>
+            <form action="https://formspree.io/f/xwkdwrwz" method="POST" target="_blank">
+                <fieldset>
+                    <div class="form-nombApell">
+                        <input class="nombre" size="40" name="nombre" placeholder=" Nombre" required>
+                        <input size="40" type="text" name="apellido" placeholder=" Apellido" required>
+                    </div>
+                    <div class="comentarios">
+                        <textarea name="comentario" id="comentario" cols="89.5" rows="5"
+                            placeholder=" Sobre qué quieres hablar?"></textarea>
+                        <div class="aviso">
+                            <small class="form-text text-muted">Recuerda incluir un titulo para tu charla.</small>
+                        </div>
+                    </div>
+                    <br>
+                    <input class="btn-enviar-orador" type="submit" value="Enviar" id="btn-enviar">
+                </fieldset>
+            </form>
+            </div>
+        </section> 
+        <br>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">Contáctanos</a></li>
+                <li><a href="#">Prensa</a></li>
+                <li><a href="#">Conferencias</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Estudiantes</a></li>
+            </ul>
+        </nav>
+    </footer> 
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.querySelector(".menu");
+
+        menuToggle.addEventListener("change", function () {
+            if (menuToggle.checked) {
+                menu.classList.add("active");
+            } else {
+                menu.classList.remove("active");
+            }
+        });
+    </script>
+</body>
+
+</html>
